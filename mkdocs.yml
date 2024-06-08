@@ -1,0 +1,76 @@
+site_name: Bioinformatics
+
+extra_javascript:
+  - mathjax-config.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - codehilite:
+      linenums: false
+      guess_lang: false
+      use_pygments: true
+      noclasses: true
+      pygments_style: manni
+
+theme:
+  name: 'material'
+  highlightjs: true
+  hljs_languages: [python]
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: bottom
+  navigation_depth: 4
+  titles_only: false
+  sticky_navigation: true
+  collapse_navigation: true
+
+extra_css:
+  - extra.css
+
+extra:
+  analytics:
+    provider: google
+    property: UA-156178967-1
+
+
+nav:
+- Introduction to Bioinformatics: introduction_to_bioinformatics.md
+- Sequence Alignment: sequence_alignment.md
+- Genome Assembly: genome_assembly.md
+- Gene Prediction: gene_prediction.md
+- Protein Structure Prediction: protein_structure_prediction.md
+- Molecular Docking: molecular_docking.md
+- Phylogenetic Analysis: phylogenetic_analysis.md
+- Functional Genomics: functional_genomics.md
+- Transcriptomics: transcriptomics.md
+- Metagenomics: metagenomics.md
+- Introduction to Genomics: introduction_to_genomics.md
+- Whole Genome Sequencing: whole_genome_sequencing.md
+- Exome Sequencing: exome_sequencing.md
+- Genome-Wide Association Studies: genome_wide_association_studies.md
+- Comparative Genomics: comparative_genomics.md
+- Epigenomics: epigenomics.md
+- Structural Genomics: structural_genomics.md
+- Functional Annotation: functional_annotation.md
+- Introduction to Omics: introduction_to_omics.md
+- Proteomics: proteomics.md
+- Metabolomics: metabolomics.md
+- Lipidomics: lipidomics.md
+- Glycomics: glycomics.md
+- Pharmacogenomics: pharmacogenomics.md
+- Nutrigenomics: nutrigenomics.md
+- Epitranscriptomics: epitranscriptomics.md
+- Single-cell Omics: single_cell_omics.md
+- Microbiomics: microbiomics.md
+- Interactomics: interactomics.md
+- Data Integration: data_integration.md
+- Data Visualization: data_visualization.md
+- Machine Learning in Bioinformatics: machine_learning_in_bioinformatics.md
+- Population Genomics: population_genomics.md
+- Clinical Genomics: clinical_genomics.md
+- Toxicogenomics: toxicogenomics.md
+- Immunogenomics: immunogenomics.md
+- Systems Biology: systems_biology.md
+- Cancer Genomics: cancer_genomics.md
+
